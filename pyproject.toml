@@ -5,13 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi>=0.115.14",
     "ipykernel>=6.29.5",
     "langchain>=0.3.26",
     "langchain-azure-ai>=0.1.4",
     "langchain-groq>=0.3.2",
+    "langchain-mcp-adapters>=0.1.7",
     "langchain-openai>=0.3.24",
     "langchain-tavily>=0.2.4",
     "langgraph>=0.4.8",
     "langsmith>=0.4.1",
+    "mcp>=1.10.1",
     "python-dotenv>=1.1.0",
 ]
