@@ -20,11 +20,11 @@ async def main():
                 'url':'http://127.0.0.1:8000/mcp',
                 'transport':'streamable_http'
             },
-            'tavily':{
-                'command':'python',
-                'args':['MCP_demp/tavily.py'], ##Ensure correct absolute path 
-                'transport':'stdio',
-            }
+            # 'tavily':{
+            #     'command':'python',
+            #     'args':['MCP_demp/tavily.py'], ##Ensure correct absolute path 
+            #     'transport':'stdio',
+            # }
 
         }
     )
@@ -45,7 +45,7 @@ async def main():
     )
 
     math_response=await agent.ainvoke(
-        {'messages':[{'role':'user','content':'whats the latest AI news on helthcare?'}]}
+        {'messages':[{'role':'user','content':'whats the weather like in texas?'}]}
     )
     print('Math response:',math_response['messages'][-1].content)
 

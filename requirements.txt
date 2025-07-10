@@ -8,4 +8,5 @@ langchain_tavily
 langchain-mcp-adapters
 mcp
 fastapi 
-
+langchain-core
+langgraph-cli[inmem]
