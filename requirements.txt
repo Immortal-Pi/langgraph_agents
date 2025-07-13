@@ -10,3 +10,10 @@ mcp
 fastapi 
 langchain-core
 langgraph-cli[inmem]
+langchain-community 
+openmeteo-requests
+requests-cache 
+retry-requests 
+numpy 
+pandas
+mcp[cli]
