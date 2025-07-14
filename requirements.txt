@@ -17,3 +17,5 @@ retry-requests
 numpy 
 pandas
 mcp[cli]
+anthropic
+mcp-use 
