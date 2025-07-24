@@ -6,7 +6,11 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=0.57.1",
+    "azure-ai-formrecognizer>=3.3.3",
+    "azure-identity>=1.23.0",
+    "azure-storage-blob>=12.26.0",
     "fastapi>=0.115.14",
+    "fitz>=0.0.1.dev2",
     "ipykernel>=6.29.5",
     "langchain>=0.3.26",
     "langchain-azure-ai>=0.1.4",
@@ -24,7 +28,11 @@ dependencies = [
     "numpy>=2.3.1",
     "openmeteo-requests>=1.5.0",
     "pandas>=2.3.1",
+    "pymupdf>=1.26.3",
     "python-dotenv>=1.1.0",
+    "requests>=2.32.4",
     "requests-cache>=1.2.1",
     "retry-requests>=2.0.0",
+    "selenium>=4.34.2",
+    "webdriver-manager>=4.0.2",
 ]
